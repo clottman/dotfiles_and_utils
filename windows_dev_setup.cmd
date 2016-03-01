@@ -5,6 +5,7 @@
 choco install git --params="/GitAndUnixToolsOnPath /NoAutoCrlf" -y
 choco install googlechrome --yes
 choco install sublimetext2 sublimetext2.packagecontrol --yes
+choco install slack --yes
 choco install f.lux --yes
 
 

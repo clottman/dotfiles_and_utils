@@ -11,8 +11,10 @@ apps=(
 	sublime-text3
 	divvy
 	evernote
-	vlc
+	slack
+	flux
 	spotify
+	vlc
 	sonos
 )
 
