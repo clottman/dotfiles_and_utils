@@ -1,0 +1,3 @@
+[
+    { "keys": ["ctrl+alt+b"], "command": "split_line", "args": {"split_pattern": " "}}
+]
