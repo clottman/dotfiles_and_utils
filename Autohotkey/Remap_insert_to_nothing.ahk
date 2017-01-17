@@ -1,1 +1,2 @@
 Insert::Return
+Delete::Return
