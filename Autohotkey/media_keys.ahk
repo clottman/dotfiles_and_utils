@@ -18,3 +18,10 @@ return
 F4::
 Send {Media_Stop}
 return
+
+F6::
+Send {Volume_Down}
+return
+
+F7::
+Send {Volume_Up}
