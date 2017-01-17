@@ -5,9 +5,11 @@ F1::
 Send {Media_Prev}
 return
 
+#IfWinNotActive, ahk_class XLMAIN ; in Excel, don't override F2 which is useful
 F2::
 Send {Media_Play_Pause}
-return
+return	
+#IfWinNotActive
 
 F3::
 Send {Media_Next}
