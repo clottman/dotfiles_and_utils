@@ -9,4 +9,5 @@ git config --global alias.staash 'stash --include-untracked'
 git config --global alias.commend 'commit --amend --no-edit'
 
 alias savediff="git diff > C:/Users/clottman/code/Scripts/diff.txt; echo 'git diff > %HOMEPATH%/code/Scripts/diff.txt'"
+alias masterRefresh="git checkout master; git pull"
 alias st="C:\Program Files\Sublime Text 2\sublime_text.exe"
