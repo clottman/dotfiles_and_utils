@@ -7,6 +7,13 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.staash 'stash --include-untracked'
 git config --global alias.commend 'commit --amend --no-edit'
+git config --global alias.aa 'add -A'
+
+commitAll()
+{
+	git add -A
+	git commit -m "$1"
+}
 
 alias savediff="git diff > C:/Users/clottman/code/Scripts/diff.txt; echo 'git diff > %HOMEPATH%/code/Scripts/diff.txt'"
 alias masterRefresh="git checkout master; git pull"
