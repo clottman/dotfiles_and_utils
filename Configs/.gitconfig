@@ -1,0 +1,9 @@
+[user]
+	email = clottman@users.noreply.github.com
+	name = Cassey Lottman
+[pull]
+	rebase = false
+[pager]
+	log = less
+[core]
+	pager = cat
